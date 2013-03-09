@@ -1,0 +1,10 @@
+bin/AndroidManifest.xml
+PDroidF.apk
+bin/classes
+bin/classes.dex
+bin/dexedLibs
+bin/jarlist.cache
+pDroidF.jar
+bin/res
+bin/resources.ap_
+

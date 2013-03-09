@@ -1,6 +1,6 @@
-package com.finalhack.pdroidf.source;
+package com.finalhack.pdroidf;
 
-import static com.finalhack.pdroidf.source.Pdf.NEW_LINE;
+import static com.finalhack.pdroidf.Pdf.NEW_LINE;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
