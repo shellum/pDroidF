@@ -1,4 +1,4 @@
-package com.finalhack.pdroidf.source;
+package com.finalhack.pdroidf;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

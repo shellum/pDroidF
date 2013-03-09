@@ -1,4 +1,4 @@
-package com.finalhack.pdroidf;
+package com.pdroidftest.activity;
 
 import java.io.File;
 
@@ -9,9 +9,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.finalhack.pdroidf.source.Pages;
-import com.finalhack.pdroidf.source.Pdf;
-import com.finalhack.pdroidf.source.Stream;
+import com.finalhack.pdroidf.Pages;
+import com.finalhack.pdroidf.Pdf;
+import com.finalhack.pdroidf.R;
+import com.finalhack.pdroidf.Stream;
 
 public class CreatePdfActivity extends Activity {
 

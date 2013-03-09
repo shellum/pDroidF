@@ -1,6 +1,6 @@
-package com.finalhack.pdroidf.source;
+package com.finalhack.pdroidf;
 
-import static com.finalhack.pdroidf.source.Pdf.NEW_LINE;
+import static com.finalhack.pdroidf.Pdf.NEW_LINE;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -62,7 +62,7 @@ public class Page
 		ret.append("<<").append(NEW_LINE);
 		ret.append("  /Type /Page").append(NEW_LINE);
 		ret.append("  /Parent " + parentObjectId + " 0 R").append(NEW_LINE);
-		ret.append("  /MediaBox [ 0 0 " + com.finalhack.pdroidf.source.Pages.PAGE_WIDTH + " " + com.finalhack.pdroidf.source.Pages.PAGE_HEIGHT + " ]").append(NEW_LINE);
+		ret.append("  /MediaBox [ 0 0 " + com.finalhack.pdroidf.Pages.PAGE_WIDTH + " " + com.finalhack.pdroidf.Pages.PAGE_HEIGHT + " ]").append(NEW_LINE);
 		ret.append("  /Contents " + stream.getObjectId() + " 0 R").append(NEW_LINE);
 		ret.append("  /Resources <<").append(NEW_LINE);
 		ret.append("    /Font <<").append(NEW_LINE);
