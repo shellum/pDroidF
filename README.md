@@ -1,15 +1,17 @@
-pDroidF - An Android PDF library free to all
+##pDroidF - An Android PDF library free to all
+Entire library less than 15kb!
+Create and write a PDF file in 4 lines of code!
 
 This is an example Android project that uses & includes pDroidF.
 
-#Adding it to a project
+##Adding it to a project
 You can add it in two ways:
 
     1 - Include the source (found in the src/com/finalhack/pdroidf directory)
     or
     2 - Include the jar (found in the bin directory)
 
-#Using it in a project
+##Using it in a project
     import com.finalhack.pdroidf.*;
 
     // Instantiate a Pdf class
@@ -33,7 +35,7 @@ You can add it in two ways:
     // Images should be JPG files and go nicely in the assets directory
     stream.addBmpImage(Pages.PAGE_WIDTH - (int) Stream.MARGIN_HORIZONTAL - JPG_WIDTH, Pages.PAGE_HEIGHT - (int) Stream.MARGIN_VERTICAL - JPG_HEIGHT, JPG_WIDTH, JPG_HEIGHT, stickerBmp);
 
-#Using PDF output
+##Using PDF output
 You can:
     1 - Get the bytes for streaming it somewhere
     or
@@ -51,4 +53,4 @@ You can:
     intent.setDataAndType(uri, MIME_TYPE_PDF);
     startActivity(intent);
 
-#Happy PDFing!
+##Happy PDFing!
