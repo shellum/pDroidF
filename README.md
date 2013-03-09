@@ -5,9 +5,9 @@ This is an example Android project that uses & includes pDroidF.
 #Adding it to a project
 You can add it in two ways:
 
-    1 - Include the source
+    1 - Include the source (found in the src/com/finalhack/pdroidf directory)
     or
-    2 - Include the jar
+    2 - Include the jar (found in the bin directory)
 
 #Using it in a project
     import com.finalhack.pdroidf.*;
@@ -18,7 +18,7 @@ You can add it in two ways:
     // A Stream is what you use to add things to a page (PDF Stream)
     Stream stream = pdf.addPage();
 
-    // Add things to your PDF
+    // Add things to your PDF by calling methods on the Stream class returned by pdf.addPage()
 
     // Add some text with a different color
     // Colors are simply hex color (RGB) Strings
